@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: campfire Udon Graph Program Asset
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 8c86ae6fd9343be43add3b980effad85,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    \r\n    __instance_0: %UnityEngineGameObject,
+    this\r\n    __value_0: %SystemBoolean, null\r\n    __GameObject_0: %UnityEngineGameObject,
+    this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onTriggerEnter\r\n   
+    \r\n    _onTriggerEnter:\r\n    \r\n        PUSH, __GameObject_0\r\n        PUSH,
+    __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH, __value_0\r\n       
+    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+      uid: 2b361174-616a-463d-b72e-6a95c0d003d3
+      position: {x: 780, y: 131}
+      nodeUIDs:
+      - 8a8c26cc-88a2-47e1-8119-b4c86f2369b4|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: Const_This
+      uid: 8a8c26cc-88a2-47e1-8119-b4c86f2369b4
+      position: {x: 468, y: 248.88}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Event_OnTriggerEnter
+      uid: 06a2ae06-707f-46c0-b87c-396574dac786
+      position: {x: 309, y: 107}
+      nodeUIDs: []
+      flowUIDs:
+      - 2b361174-616a-463d-b72e-6a95c0d003d3
+      nodeValues: []
+    updateOrder: 0
+  graphElementData: []
+  version: 1.0.0
+  showAssembly: 0
