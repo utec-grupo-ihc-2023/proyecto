@@ -80,8 +80,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MomentumTransferMethod: 0
   DisallowTheft: 0
-  ExactGun: {fileID: 0}
-  ExactGrip: {fileID: 0}
+  ExactGun: {fileID: 3867628535211118866}
+  ExactGrip: {fileID: 3867628535211118866}
   allowManipulationWhenEquipped: 0
   orientation: 2
   AutoHold: 1
@@ -251,6 +251,12 @@ Transform:
 --- !u!1 &5191739986336153249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9013638940889411661, guid: 400246f54633a6f4692859b1d628aa68,
+    type: 3}
+  m_PrefabInstance: {fileID: 3826411373443059436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3867628535211118866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9171941866361659394, guid: 400246f54633a6f4692859b1d628aa68,
     type: 3}
   m_PrefabInstance: {fileID: 3826411373443059436}
   m_PrefabAsset: {fileID: 0}
