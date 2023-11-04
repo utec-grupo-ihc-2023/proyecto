@@ -14,14 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: 6202f9f5e0726b149b8482d74736c302,
     type: 2}
-  udonAssembly: ".data_start\r\n\r\n    .export Foam\r\n    \r\n    __instance_0:
-    %UnityEngineGameObject, this\r\n    __value_0: %SystemBoolean, null\r\n    inputUseBoolValue:
-    %SystemBoolean, null\r\n    Foam: %UnityEngineGameObject, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
-    .export _inputUse\r\n    \r\n    _inputUse:\r\n    \r\n        PUSH, Foam\r\n       
-    PUSH, __instance_0\r\n        COPY\r\n        PUSH, inputUseBoolValue\r\n       
-    PUSH, __value_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
+  udonAssembly: ".data_start\r\n\r\n    .export Foam\r\n    .export Pickup\r\n   
+    \r\n    __Boolean_0: %SystemBoolean, null\r\n    __instance_0: %VRCSDK3ComponentsVRCPickup,
+    null\r\n    __instance_1: %UnityEngineGameObject, this\r\n    __value_0: %SystemBoolean,
+    null\r\n    inputUseBoolValue: %SystemBoolean, null\r\n    Foam: %UnityEngineGameObject,
+    this\r\n    Pickup: %VRCSDK3ComponentsVRCPickup, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export _inputUse\r\n    \r\n    _inputUse:\r\n    \r\n        PUSH, Pickup\r\n       
+    PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
+    __Boolean_0\r\n        EXTERN, \"VRCSDK3ComponentsVRCPickup.__get_IsHeld__SystemBoolean\"\r\n       
+    PUSH, __Boolean_0\r\n        JUMP_IF_FALSE, 0x00000084\r\n        PUSH, Foam\r\n       
+    PUSH, __instance_1\r\n        COPY\r\n        PUSH, inputUseBoolValue\r\n       
+    PUSH, __value_0\r\n        COPY\r\n        PUSH, __instance_1\r\n        PUSH,
     __value_0\r\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+    JUMP, 0x00000084\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
@@ -63,7 +68,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
       uid: 2cbf2496-d3b7-4552-bb5a-d79cb37c389f
-      position: {x: 960.4, y: 178.4}
+      position: {x: 1161.02, y: 167.42001}
       nodeUIDs:
       - 58c4dc14-1b2d-4394-9a2f-055b787d9ca4|0
       - 78096b0c-c4d0-4ece-a8f2-c71f33a1e6cf|0
@@ -79,8 +84,62 @@ MonoBehaviour:
       position: {x: 427.93997, y: 93.70232}
       nodeUIDs: []
       flowUIDs:
-      - 2cbf2496-d3b7-4552-bb5a-d79cb37c389f
+      - 4e6c19a5-0537-488c-9a3d-661137799efb
       nodeValues: []
+    - fullName: Branch
+      uid: 4e6c19a5-0537-488c-9a3d-661137799efb
+      position: {x: 935.635, y: 103.32251}
+      nodeUIDs:
+      - a3d89842-353b-49a7-9c84-fe2bd3c93133|0
+      flowUIDs:
+      - 2cbf2496-d3b7-4552-bb5a-d79cb37c389f
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: Variable_VRCSDK3ComponentsVRCPickup
+      uid: 96a8d588-a3a0-414f-945f-a5dce619f508
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Pickup
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: f1afbbc1-dde6-4875-85ad-233c642cc346
+      position: {x: 451, y: -17}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|96a8d588-a3a0-414f-945f-a5dce619f508
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: VRCSDK3ComponentsVRCPickup.__get_IsHeld__SystemBoolean
+      uid: a3d89842-353b-49a7-9c84-fe2bd3c93133
+      position: {x: 715.9375, y: 24.645}
+      nodeUIDs:
+      - f1afbbc1-dde6-4875-85ad-233c642cc346|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     updateOrder: 0
   graphElementData: []
   version: 1.0.0
