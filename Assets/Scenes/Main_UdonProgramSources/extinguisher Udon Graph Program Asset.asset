@@ -57,7 +57,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 58c4dc14-1b2d-4394-9a2f-055b787d9ca4
-      position: {x: 451.4661, y: 276.89282}
+      position: {x: 776, y: 229}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -68,7 +68,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
       uid: 2cbf2496-d3b7-4552-bb5a-d79cb37c389f
-      position: {x: 1161.02, y: 167.42001}
+      position: {x: 978.56006, y: 200}
       nodeUIDs:
       - 58c4dc14-1b2d-4394-9a2f-055b787d9ca4|0
       - 78096b0c-c4d0-4ece-a8f2-c71f33a1e6cf|0
@@ -81,14 +81,14 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Event_InputUse
       uid: 78096b0c-c4d0-4ece-a8f2-c71f33a1e6cf
-      position: {x: 427.93997, y: 93.70232}
+      position: {x: 457, y: 105}
       nodeUIDs: []
       flowUIDs:
       - 4e6c19a5-0537-488c-9a3d-661137799efb
       nodeValues: []
     - fullName: Branch
       uid: 4e6c19a5-0537-488c-9a3d-661137799efb
-      position: {x: 935.635, y: 103.32251}
+      position: {x: 810, y: 96}
       nodeUIDs:
       - a3d89842-353b-49a7-9c84-fe2bd3c93133|0
       flowUIDs:
@@ -133,7 +133,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: VRCSDK3ComponentsVRCPickup.__get_IsHeld__SystemBoolean
       uid: a3d89842-353b-49a7-9c84-fe2bd3c93133
-      position: {x: 715.9375, y: 24.645}
+      position: {x: 637, y: -15.080017}
       nodeUIDs:
       - f1afbbc1-dde6-4875-85ad-233c642cc346|0
       flowUIDs: []
