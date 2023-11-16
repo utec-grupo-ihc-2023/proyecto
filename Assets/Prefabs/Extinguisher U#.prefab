@@ -137,7 +137,8 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 2937453379400710704}
   foam: {fileID: 3992136344901764235}
   pickup: {fileID: 1421598985071188186}
-  fireTypes: []
+  fireTypes:
+  - Fire
   maxDistance: 10
   foamOrigin: {fileID: 6154121043132722128}
 --- !u!114 &2937453379400710704

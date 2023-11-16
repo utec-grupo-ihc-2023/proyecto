@@ -232,7 +232,7 @@ MonoBehaviour:
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Collide
     - fullName: UnityEngineRaycastHit.__get_collider__UnityEngineCollider
       uid: 327690e9-fac8-4092-bdf0-57e53eeaffe0
-      position: {x: 1620, y: 398}
+      position: {x: 1592, y: 377.56}
       nodeUIDs:
       - 326628b2-e4ff-4980-a1db-22f27f3e956f|0
       flowUIDs: []
