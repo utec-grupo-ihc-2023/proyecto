@@ -13,6 +13,7 @@ public class Extinguisher : UdonSharpBehaviour
     public string[] fireTypes;
     public float maxDistance = 10.0f;
     public Transform foamOrigin;
+    public float extinguishRate = 0.5f;
 
     bool sendRaycast = false;
 
@@ -50,7 +51,16 @@ public class Extinguisher : UdonSharpBehaviour
     {
         if(IsCompatible(fire))
         {
-            fire.SetActive(false);
+            float deltaRate = Mathf.Pow(extinguishRate, Time.deltaTime);
+
+            var main = fire.GetComponent<ParticleSystem>().main;
+
+            main.startSize = new ParticleSystem.MinMaxCurve(main.startSize.constantMin * deltaRate, main.startSize.constantMax * deltaRate);
+
+            if(main.startSize.constantMin < 0.1f)
+            {
+                fire.SetActive(false);
+            }
         }
     }
 
