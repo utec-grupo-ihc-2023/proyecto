@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -57,15 +57,16 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 12
     m_Resolution: 2
-    m_BakeResolution: 40
+    m_BakeResolution: 160
     m_AtlasSize: 2048
     m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
     m_ExtractAmbientOcclusion: 0
-    m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
+    m_Padding: 4
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
     m_FinalGather: 0
@@ -9916,6 +9917,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: fireTypes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: fireTypes.Array.data[1]
+      value: Fire 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
         type: 3}
       propertyPath: serializationData.Prefab

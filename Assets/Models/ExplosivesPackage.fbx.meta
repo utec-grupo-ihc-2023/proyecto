@@ -117,7 +117,12 @@ ModelImporter:
   - first:
       95: 9500000
     second: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExplosivesMaterial__ExplosivesColours
+    second: {fileID: 2100000, guid: 62a09731755a52e4db990b5821e322b3, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -159,7 +164,7 @@ ModelImporter:
     importLights: 0
     fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
