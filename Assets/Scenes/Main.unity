@@ -357,6 +357,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -671,7 +681,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &43347611
 Transform:
@@ -859,6 +869,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street 8 Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695049543612290, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4392699554287472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.23
@@ -962,6 +980,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -1288,6 +1316,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street 8 Prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695049543612290, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4392699554287472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.23
@@ -1430,6 +1466,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -1666,9 +1712,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -1993,7 +2047,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &425145733
 Transform:
@@ -2033,6 +2087,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -7400,6 +7464,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -7545,6 +7619,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -7788,7 +7872,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &670613466
 Transform:
@@ -7912,6 +7996,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl1
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -7989,7 +8083,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &718283872
 Transform:
@@ -8018,6 +8112,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -8310,6 +8414,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -8455,6 +8569,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -8833,9 +8957,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1024213035016484, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1127416056536722, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
       propertyPath: m_Name
       value: Street 9 Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127416056536722, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4416284839522422, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
       propertyPath: m_RootOrder
@@ -8984,6 +9116,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -9054,9 +9196,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -9402,7 +9552,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &870732601
 Transform:
@@ -9647,7 +9797,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &979634303
 Transform:
@@ -9926,6 +10076,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl1
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -9996,9 +10156,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -10556,9 +10724,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -10992,7 +11168,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1324155454
 Transform:
@@ -11091,6 +11267,14 @@ PrefabInstance:
     - target: {fileID: 1416373601309472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
       propertyPath: m_Name
       value: Street 8 Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695049543612290, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4392699554287472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11263,9 +11447,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -11479,9 +11671,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -11834,9 +12034,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1024213035016484, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1127416056536722, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
       propertyPath: m_Name
       value: Street 9 Prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127416056536722, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4416284839522422, guid: c7882e4d30114944b9894c2c302d8a34, type: 3}
       propertyPath: m_RootOrder
@@ -12476,7 +12684,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1621303024
 Transform:
@@ -12507,6 +12715,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -12700,6 +12918,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -12868,6 +13096,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street 8 Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695049543612290, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4392699554287472, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.23
@@ -12942,7 +13178,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1695897588
 Transform:
@@ -12983,6 +13219,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -13550,6 +13796,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -13722,7 +13978,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1767610788
 Transform:
@@ -13762,6 +14018,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -13837,6 +14103,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -14442,7 +14718,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1863718524
 Transform:
@@ -14471,9 +14747,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -14765,6 +15049,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
@@ -15137,7 +15431,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2025628890
 Transform:
@@ -15295,6 +15589,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrowdControl (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
       propertyPath: m_RootOrder
@@ -15426,9 +15730,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695897588}
     m_Modifications:
+    - target: {fileID: 1752178989090972, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_Name
       value: Street 1 Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945893281986604, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4210084119734192, guid: 625d4ab1ce4723c449f165b8e7f27de1, type: 3}
       propertyPath: m_RootOrder
@@ -15789,6 +16101,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CrowdControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870442187873513078, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135480005156400492, guid: 48cf6f35d429a0344b461dd8a60669df,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8475111480895230422, guid: 48cf6f35d429a0344b461dd8a60669df,
         type: 3}
