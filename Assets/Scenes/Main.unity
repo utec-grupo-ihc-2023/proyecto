@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.46602172, g: 0.5960813, b: 0.7371453, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -781,6 +781,97 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 58606861}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &61299753
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: foam
+      value: 
+      objectReference: {fileID: 8618219265673647433, guid: b4eabe739f2393a44b391109fbb03e27,
+        type: 3}
+    - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: fireTypes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: fireTypes.Array.data[1]
+      value: Fire 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+    - target: {fileID: 7530776009570049244, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_Name
+      value: Extinguisher U# (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.905
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530776009570049245, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 64b8204f614ecb642b90bfde916aafba, type: 3}
 --- !u!1 &75854871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2961387176808487950, guid: b1a39f599f0964049b1c3ba10835ddf9,
@@ -16454,7 +16545,7 @@ PrefabInstance:
     - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
         type: 3}
       propertyPath: fireTypes.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
         type: 3}
@@ -16466,6 +16557,12 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 3525233922908579650, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+    - target: {fileID: 6751352856738932802, guid: 64b8204f614ecb642b90bfde916aafba,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 670224309865224971, guid: 400246f54633a6f4692859b1d628aa68,
         type: 3}
     - target: {fileID: 7530776009570049244, guid: 64b8204f614ecb642b90bfde916aafba,
         type: 3}
